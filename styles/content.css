@@ -1,0 +1,99 @@
+/* Content Styles */
+
+.content-wrapper {
+    height: 630px;
+    background-color: #42464F;
+    box-shadow: inset -600px -100px 1200px 100px rgb(25 26 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content-wrapper > .left-column-wrapper {
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+
+.content-wrapper > .left-column-wrapper > .text1-wrapper p {
+    color: white;
+    font-size: 2.7em;
+    font-weight: 100;
+    line-height: 1.1;
+    margin-bottom: 0px;
+}
+
+.content-wrapper > .left-column-wrapper > .text1-wrapper p::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \e1a8";
+    font-weight: 900;
+    color: goldenrod;
+}
+
+
+
+.content-wrapper > .left-column-wrapper > .text1-wrapper b {
+font-weight: 500;
+}
+
+.content-wrapper > .left-column-wrapper > .text2-wrapper p {
+    color: #B3B3B3;
+    font-size: 2.2em;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.content-wrapper > .left-column-wrapper > .buttons-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.content-wrapper > .left-column-wrapper > .buttons-wrapper > .signupfree-btn-wrapper > .btn {
+    color: black;
+    font-size: 2.5em;
+    background-color: #4BCE79;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.content-wrapper > .left-column-wrapper > .buttons-wrapper > .learnmore-btn-wrapper > .btn {
+    color: white;
+    font-size: 2.4em;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.content-wrapper > .right-column-wrapper > .white-blue-text-wrapper {
+    font-weight: bold;
+}
+
+.content-wrapper > .right-column-wrapper > .white-blue-text-wrapper p {
+    color: #78DAFD;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.content-wrapper > .right-column-wrapper > .white-blue-text-wrapper p::after {
+    content: "!";
+    color: white;
+}
+
+.content-wrapper > .right-column-wrapper > .white-blue-text-wrapper p::before {
+    content: "  This is ";
+    color: white;
+}
+
+.content-wrapper > .right-column-wrapper > .image-wrapper img {
+    width: 640px;
+    height: 100%;
+}

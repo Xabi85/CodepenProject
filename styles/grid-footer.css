@@ -1,0 +1,38 @@
+
+.grid-wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80px;
+    background-color: #36383F;   
+}
+
+.grid-wrapper > .fraction-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    height: 76px;
+}
+
+.grid-wrapper > .fraction-wrapper > :nth-child(1) {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.grid-wrapper > .fraction-wrapper > :nth-child(2) {
+    font-size: 2em;
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin-left: 2px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #191A1D;
+}
+
+

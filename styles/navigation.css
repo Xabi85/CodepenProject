@@ -1,0 +1,84 @@
+/* navigation wrapper styles */
+
+.navigation-wrapper {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-side-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-side-wrapper > .logo-wrapper {
+    padding-left: 20px;
+    padding-right: 55px;
+}
+
+.navigation-wrapper > .left-side-wrapper > .logo-wrapper img {
+    width: 230px;
+    height: 100%;
+}
+
+.navigation-wrapper >.left-side-wrapper > .explore-navbar-wrapper {
+    font-size: 1.4em;
+}
+
+.navigation-wrapper >.left-side-wrapper > .explore-navbar-wrapper > .explore-wrapper {
+    color: yellow;
+}
+
+.navigation-wrapper >.left-side-wrapper > .explore-navbar-wrapper > .navbar-wrapper {
+    display: flex;
+    align-items: center;  
+}
+
+.navigation-wrapper > .left-side-wrapper >  .explore-navbar-wrapper > .navbar-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.navigation-wrapper > .left-side-wrapper > .explore-navbar-wrapper > .navbar-wrapper > :nth-child(5) {
+    color: grey;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.navigation-wrapper > .left-side-wrapper > .explore-navbar-wrapper > .navbar-wrapper > :nth-child(5) i {
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .right-side-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right:10px; 
+}
+
+.navigation-wrapper > .right-side-wrapper button {
+    color: white;
+    font-size: 1.4em;
+    background-color: rgb(54, 56, 63);
+    padding:20px 30px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.navigation-wrapper > .right-side-wrapper > .create-btn-wrapper > .btn i {
+    color: green;
+}
+
+.navigation-wrapper > .right-side-wrapper > .lens-wrapper i {
+    color: grey;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.navigation-wrapper > .right-side-wrapper > .signup-btn-wrapper > button {
+    margin-left: 10px;
+}
